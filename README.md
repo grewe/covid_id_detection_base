@@ -1,9 +1,12 @@
 # covid_id_detection_base is a repository with multiple examples of using Object Detection API in Tensorflow 2
 
+**** Request access to [Drive file](https://drive.google.com/drive/u/0/folders/1EMiJMe-bsxt0ylWRr6gKQG03U9sqyaIP) where zip of data + Notebook can be found ******
+
 ##  RETRAIN EXAMPLE 1:  <font color=blue>Roboflow_TensorFlow2_Object_Detection.ipynb</font>
 ### -(retraining using TFRecord input)
 #### is a modification of [hosted colab retraining example](https://towardsdatascience.com/how-to-train-a-tensorflow-2-object-detection-model-25d4da64b817)  developed to RUN LOCALLY rather than in a [colab](https://colab.research.google.com/drive/1sLqFKVV94wm-lglFq_0kGo2ciM0kecWD#scrollTo=fF8ysCfYKgTP&uniqifier=1).  This example expects the input images and corresponding bounding box information to be stored in a TFRecord format for both training and validation.  For testing raw images are also expected in a raw_data subdirectory (read noteboo]k)
 - NOTE [the original reports](https://towardsdatascience.com/how-to-train-a-tensorflow-2-object-detection-model-25d4da64b817) issue with Tensorflow 2 tf_utils.py file which is overwrites and as such <font color=red>should be run in its own isolated conda environment as it changes the base TF2 file</font>
+- [ZIP file](https://drive.google.com/file/d/1Za3aYr8CRqpLA3EjU5MiP2yIuvBCWFZi/view?usp=sharing) containing notebook and data.  Notebook located in top directory.
 
 
 
@@ -14,6 +17,8 @@
 - [Official Object Detection API for TF2 page](https://blog.tensorflow.org/2020/07/tensorflow-2-meets-object-detection-api.html?m=1)
 - [Original jupyter notebook example - 1 class](https://github.com/TannerGilbert/Tensorflow-Object-Detection-with-Tensorflow-2.0)
 - Install the Object Detection API Models directory on your system and the original file will be located in WHATEVER\INSTALL_DIR\models\research\object_detection\colab_tutorials
+- [ZIP file](https://drive.google.com/file/d/1AzD7z9FbBI9jB7YaJ8mXACyT2Dus0mVg/view?usp=sharing) containing notebook and data.  Notebook located in ObjectDetectionTF2\models\research\object_detection\colab_tutorials
+
 
 
 
@@ -24,4 +29,5 @@
 - [Official Object Detection API for TF2 page](https://blog.tensorflow.org/2020/07/tensorflow-2-meets-object-detection-api.html?m=1)
 - [Original jupyter notebook example - 1 class](https://github.com/TannerGilbert/Tensorflow-Object-Detection-with-Tensorflow-2.0)
 - Install the Object Detection API Models directory on your system and the original file will be located in WHATEVER\INSTALL_DIR\models\research\object_detection\colab_tutorials
+- [ZIP file](https://drive.google.com/file/d/1AzD7z9FbBI9jB7YaJ8mXACyT2Dus0mVg/view?usp=sharing) containing notebook and data.  Notebook located in ObjectDetectionTF2\models\research\object_detection\colab_tutorials
 
